@@ -1,0 +1,11 @@
+%{"cors_plug": {:git, "git://github.com/mschae/cors_plug.git", "214d7da10357c48f2c7103ee43c20b4e414b4f16", []},
+  "cowboy": {:hex, :cowboy, "1.0.0"},
+  "cowlib": {:hex, :cowlib, "1.0.1"},
+  "hackney": {:hex, :hackney, "1.0.6"},
+  "httpoison": {:hex, :httpoison, "0.6.2"},
+  "idna": {:hex, :idna, "1.0.2"},
+  "phoenix": {:hex, :phoenix, "0.9.0"},
+  "plug": {:hex, :plug, "0.10.0"},
+  "poison": {:hex, :poison, "1.3.1"},
+  "ranch": {:hex, :ranch, "1.0.0"},
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.1"}}
