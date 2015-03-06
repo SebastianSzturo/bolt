@@ -1,6 +1,6 @@
 # Bolt :nut_and_bolt:
 
-Bolt is a simple and fast web proxy living in the Erlang VM. Bolt can be used as a ssl proxy to prevent mixed content warnings on secure pages or to bypass CORS. For example as a SSL image proxy or for client side website scraping.
+Bolt is a simple and fast http proxy living in the Erlang VM. Bolt can be used as a SSL proxy to prevent mixed content warnings on secure pages or to bypass CORS. For example as a SSL image proxy or html proxy for client side website scraping.
 
 ## Installation
 
@@ -22,13 +22,13 @@ http://example.com/?url=<url>
 ## SSL
 If you need to use your own certificate:
 
-To launch your application with support for SSL, just place your keyfile and certfile in the priv directory and configure your router with the following options
+To launch your application with support for SSL, just place your ``keyfile`` and ``certfile`` in the ``priv`` directory and configure your router with the following options
 
 ```Elixir
-# my_app/config/prod.exs
+# bolt/config/prod.exs
 use Mix.Config
 
-config :phoenix, MyApp.Endpoint,
+config :phoenix, Bolt.Endpoint,
   https: [port: 443,
           host: "example.com",
           keyfile: System.get_env("SOME_APP_SSL_KEY_PATH"),
