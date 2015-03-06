@@ -7,7 +7,7 @@ defmodule Bolt.ProxyController do
     url = params["url"]
 
     case url do
-      :undefined ->
+      nil ->
         html conn, ""
 
       url ->
@@ -21,9 +21,9 @@ defmodule Bolt.ProxyController do
 
   def post(conn, params) do
     url = params["url"]
-    
+
     case url do
-      :undefined ->
+      nil ->
         html conn, ""
 
       url ->
