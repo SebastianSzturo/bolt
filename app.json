@@ -1,0 +1,12 @@
+{
+  "name": "Bolt",
+  "description": "Fast and simple web proxy living in the Erlang VM.",
+  "keywords": [
+    "Elixir",
+    "Erlang",
+    "proxy"
+  ],
+  "website": "https://github.com/SebastianSzturo/bolt",
+  "repository": "https://github.com/SebastianSzturo/bolt",
+  "logo": "https://cdn.rawgit.com/twitter/twemoji/gh-pages/svg/1f529.svg"
+}
