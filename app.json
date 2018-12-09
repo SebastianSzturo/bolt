@@ -8,7 +8,7 @@
   ],
   "website": "https://github.com/SebastianSzturo/bolt",
   "repository": "https://github.com/SebastianSzturo/bolt",
-  "logo": "https://cdn.rawgit.com/twitter/twemoji/gh-pages/svg/1f529.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/twitter/twemoji@gh-pages/svg/1f529.svg",
   "env": {
     "BUILDPACK_URL": "https://github.com/ddollar/heroku-buildpack-multi"
   }
